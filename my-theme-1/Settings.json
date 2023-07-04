@@ -7,7 +7,8 @@
 
     // change the font type and size
 
-    "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace",
+    // "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontFamily": "Comic Sans MS",
     "editor.fontSize": 18,
 
     // my other vs code settings
