@@ -1,7 +1,6 @@
 // This is a vs code open user settings "settings.json" code file
 // Date: Sat, 01/07/23
 // Author: Ankur Saxena
-// Platform: Linux Zorin OS 16.2/x64/Json/Vs code editor
 
 {
 
@@ -19,7 +18,7 @@
     "workbench.colorTheme": "Abyss",
     "workbench.colorCustomizations": {
 
-        // change the editor backgroun d color
+        // change the editor background color
         //"editor.background": "#4b4f5d",
         "editor.background": "#282f45",
 
