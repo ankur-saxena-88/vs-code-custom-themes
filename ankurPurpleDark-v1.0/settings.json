@@ -56,6 +56,7 @@
                         "comment.line.number-sign.julia",
                         "comment.line.double-slash.cpp",
                         "comment.block.number-sign-equals.julia",
+                        "punctuation.definition.comment.julia",
                         "comment.block.cpp"
                     ],
                     "settings": {
@@ -66,7 +67,9 @@
                 {
                     "name": "Change the multiline comments color",
                     "scope": [
-                        "comment.block.number-sign-equals.julia"
+                        "comment.block.number-sign-equals.julia",
+                        "punctuation.definition.comment.begin.julia",
+                        "punctuation.definition.comment.end.julia"
                     ],
                     "settings": {
                         "foreground": "#fdf0d5", // change this COLOR
