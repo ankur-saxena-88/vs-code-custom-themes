@@ -1,0 +1,337 @@
+// This is a vs code open user settings "settings.json" code file
+// Date: Sun, 08-08-2024
+// Theme type: MightyLight theme version 1
+// Author: Ankur Saxena
+
+{
+
+    // change the font type and size
+
+    // "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontFamily": "MesloLGS NF",
+    "editor.fontSize": 20,
+
+    // my other vs code settings
+
+    "workbench.startupEditor": "none",
+    "editor.wordWrap": "on",
+
+    //"workbench.colorTheme": "Shades of Purple",
+    //"workbench.iconTheme": "eq-material-theme-icons",
+    "workbench.colorCustomizations": {
+
+        // change the editor background color
+        "editor.background": "#fefee3",
+        //"editor.background": "#fefae0",
+
+        // change editor line numbers
+        // "editorLineNumber.foreground": "#fd0457",
+        // change the tab color
+        "tab.activeBackground": "#fefee3",
+        "tab.activeForeground": "#b0c4b1",
+        "tab.inactiveBackground": "#ddbea9",        // Background color of inactive tabs
+        "tab.inactiveForeground": "#8d99ae",        // Text color of inactive tabs
+
+        // change the status bar color
+        "statusBar.background": "#fefae0",
+
+        // change the activity bar items color
+        "activityBar.background": "#fefee3",
+        "activityBar.activeBackground": "#ddbea9",
+        "activityBar.foreground": "#e3ebe8",
+
+        //Change the sidebar color
+        "sideBar.background": "#fefee3",
+        "sideBarTitle.foreground": "#8d99ae",      // Color of the Explorer's title
+        "list.activeSelectionBackground": "#fcd5ce",  // Background color of the selected item when the Explorer is active
+        "list.activeSelectionForeground": "#8d99ae",  // Text color of the selected item when the Explorer is active
+       "list.inactiveSelectionBackground": "#ddbea9",// Background color of the selected item when the Explorer is inactive
+       "list.inactiveSelectionForeground": "#8d99ae",
+       "sideBarSectionHeader.background": "#fcd5ce", // Background color for section headers like "OPEN EDITORS"
+        "sideBarSectionHeader.foreground": "#8d99ae", // Text color for section headers
+    },
+    "editor.minimap.autohide": true,
+    "editor.minimap.scale": 2,
+    "editor.minimap.renderCharacters": false,
+    "json.schemas": [],
+
+    // change the text color of programming languages codes
+
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+
+            // change the text color
+
+                {
+                    "name": "Change the single line comments color",
+                    "scope": [
+                        "comment.line.number-sign.julia",
+                        "comment.line.double-slash.cpp",
+                        "comment.block.number-sign-equals.julia",
+                        "punctuation.definition.comment.julia",
+                        "comment.block.cpp"
+                    ],
+                    "settings": {
+                        "foreground": "#fdf0d5", // change this COLOR
+                    }            
+                },
+
+                //Kotlin colors
+
+                {
+                    "name": "Change the single line comments color",
+                    "scope": [
+                        "string.quoted.double.kotlin"
+                    ],
+                    "settings": {
+                        "foreground": "#ff8fab", // change this COLOR
+                    }            
+                },
+
+                {
+                    "name": "Change the println function color",
+                    "scope": [
+                        "support.function.kotlin",
+                        "meta.block.kotlin",
+                        "source.kotlin"
+                    ],
+                    "settings": {
+                        "foreground": "#99c1b9", // change this COLOR
+                    }            
+                },
+
+                {
+                    "name": "Change multiline comments color",
+                    "scope": [
+                        "comment.line.double-slash.kotlin",
+                        "comment.block.kotlin"
+                    ],
+                    "settings": {
+                        "foreground": "#cad2c5", // change this COLOR
+                    }            
+                },
+
+                {
+                    "name": "Change main function color",
+                    "scope": [
+                        "entity.name.function.kotlin"
+                    ],
+                    "settings": {
+                        "foreground": "#3dccc7", // change this COLOR
+                    }            
+                },
+
+                {
+                    "name": "Change variable name color",
+                    "scope": [
+                        "meta.block.kotlin",
+                    ],
+                    "settings": {
+                        "foreground": "#ffb4a2", // change this COLOR
+                    }            
+                },
+
+                {
+                    "name": "Change constant num integer color",
+                    "scope": [
+                        "constant.numeric.integer.kotlin",
+                    ],
+                    "settings": {
+                        "foreground": "#bdb2ff", // change this COLOR
+                    }            
+                },
+
+                {
+                    "name": "Change braces color",
+                    "scope": [
+                        "punctuation.section.block.begin.kotlin", //Opening curly brace
+                    "punctuation.section.block.end.kotlin",   // Closing curly brace
+                    "punctuation.section.braces.kotlin"       // Both curly braces",
+                    ],
+                    "settings": {
+                        "foreground": "#006d77", // change this COLOR
+                    }            
+                },
+
+                {
+                    "name": "Change the multiline comments color",
+                    "scope": [
+                        "comment.block.number-sign-equals.julia",
+                        "punctuation.definition.comment.begin.julia",
+                        "punctuation.definition.comment.end.julia"
+                    ],
+                    "settings": {
+                        "foreground": "#fdf0d5", // change this COLOR
+                    }            
+                },
+
+                {
+                    "name": "Change the variable color",
+                    "scope": [
+                        "source.julia",
+                        "meta.body.function.definition.cpp"
+                    ],
+                    "settings": {
+                        "foreground": "#e9c46a", // change this COLOR
+                    }            
+                },
+
+                {
+                    "name": "Change the string color",
+                    "scope": [
+                        "string.quoted.double.julia",
+                        "string.quoted.double.cpp"
+                    ],
+                    "settings": {
+                        "foreground": "#fb6f92", // change this COLOR
+                    }            
+                },
+
+                {
+                    "name": "Change the escape character color",
+                    "scope": [
+                        "constant.character.escape.julia"
+                    ],
+                    "settings": {
+                        "foreground": "#a8dadc", // change this COLOR
+                    }            
+                },
+
+                {
+                    "name": "Change the print command color",
+                    "scope": [
+                        "support.function.julia"
+                    ],
+                    "settings": {
+                        "foreground": "#2a9d8f", // change this COLOR
+                    }            
+                },
+
+                {
+                    "name": "Change the import library color",
+                    "scope": [
+                        "keyword.control.using.julia",
+                        "keyword.other.using.directive.cpp"
+                    ],
+                    "settings": {
+                        "foreground": "#925cf5", // change this COLOR
+                    }            
+                },
+
+                {
+                    "name": "Change the equals color",
+                    "scope": [
+                        "keyword.operator.update.julia",
+                    ],
+                    "settings": {
+                        "foreground": "#c7f9cc", // change this COLOR
+                    }            
+                },
+
+                {
+                    "name": "Change the double colon color",
+                    "scope": [
+                        "keyword.operator.relation.types.julia",
+                    ],
+                    "settings": {
+                        "foreground": "#eae2b7", // change this COLOR
+                    }            
+                },
+
+                {
+                    "name": "Change the operator color",
+                    "scope": [
+                        "keyword.operator.arithmetic.julia",
+                    ],
+                    "settings": {
+                        "foreground": "#c8b6ff", // change this COLOR
+                    }            
+                },
+
+                {
+                    "name": "Change the color of @print command",
+                    "scope": [
+                        "support.function.macro.julia"
+                    ],
+                    "settings": {
+                        "foreground": "#4286f4", // change this COLOR
+                    }            
+                },
+
+                // change the text color of c++ language
+
+                {
+                    "name": "Change the data type color",
+                    "scope": [
+                        "storage.type.built-in.primitive.cpp"
+                    ],
+                    "settings": {
+                        "foreground": "#a8dadc", // change this COLOR
+                    }            
+                },
+                
+                {
+                    "name": "Change the preprocessor directive color",
+                    "scope": [
+                        "punctuation.definition.directive.cpp",
+                        "keyword.control.directive.include.cpp"
+                    ],
+                    "settings": {
+                        "foreground": "#925cf5", // change this COLOR
+                    }            
+                },
+
+                {
+                    "name": "Change the start/end punctuation color",
+                    "scope": [
+                        "punctuation.definition.string.begin.cpp",
+                        "punctuation.definition.string.end.cpp"
+                    ],
+                    "settings": {
+                        "foreground": "#f3f55c", // change this COLOR
+                    }            
+                },
+
+                {
+                    "name": "Change the header file color",
+                    "scope": [
+                        "string.quoted.other.lt-gt.include.cpp"
+                    ],
+                    "settings": {
+                        "foreground": "#7bf55c", // change this COLOR
+                    }            
+                },
+
+                {
+                    "name": "Change the namespace color",
+                    "scope": [
+                        "storage.type.namespace.directive.cpp"
+                    ],
+                    "settings": {
+                        "foreground": "#5c85f5", // change this COLOR
+                    }            
+                },
+
+                {
+                    "name": "Change the std color",
+                    "scope": [
+                        "entity.name.namespace.cpp",
+                        "entity.name.scope-resolution.cpp"
+                    ],
+                    "settings": {
+                        "foreground": "#f3dc0b", // change this COLOR
+                    }            
+                },
+
+                {
+                    "name": "Change the main function color",
+                    "scope": [
+                        "entity.name.function.definition.cpp"
+                    ],
+                    "settings": {
+                        "foreground": "#2aa3f3", // change this COLOR
+                    }            
+                },
+         ]
+    }
+}
