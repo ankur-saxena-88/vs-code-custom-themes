@@ -10,6 +10,8 @@
     // "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace",
     "editor.fontFamily": "MesloLGS NF",
     "editor.fontSize": 20,
+    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.fontSize": 18,
 
     // my other vs code settings
 
@@ -24,6 +26,10 @@
         "editor.background": "#1b263b",
         //"editor.background": "#fefae0",
 
+        //Change terminal color
+        "terminal.background": "#1b263b",
+        "terminal.foreground": "#006d77",
+        
         // change editor line numbers
         // "editorLineNumber.foreground": "#fd0457",
         // change the tab color
