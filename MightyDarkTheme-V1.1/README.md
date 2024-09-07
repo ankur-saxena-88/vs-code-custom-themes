@@ -1,5 +1,5 @@
 # Mighty Dark Theme Version 1.1
-/divider 
+
 ## Installlation
 
 1. Download `DankMono` font and install it.
