@@ -8,5 +8,9 @@
 4. In `Command Palette` tab, search for `open user settings (json)` and press `Enter` to open it.
 5. Paste the code inside this file and `Save` it.
 
+<p><b>Install following Extensions:</b></p> <br>
+~ Catppuccin for VSCode <br>
+~ Catppuccin Icons for VSCode
+
 <br><br>
 Enjoy theme! Happy coding...
