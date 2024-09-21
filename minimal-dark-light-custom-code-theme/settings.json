@@ -1,0 +1,143 @@
+{
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "a-file-icon-vscode",
+    "editor.fontFamily": "'Victor Mono', 'Courier New', monospace",
+    // Consolas, 'Courier New', monospace
+    "editor.fontSize": 24,
+    "workbench.colorTheme": "Atom Material Theme",
+    "terminal.integrated.fontSize": 16,
+    "editor.wordWrap": "on",
+    "liveServer.settings.donotShowInfoMsg": true,
+
+    "workbench.colorCustomizations": {
+
+        // change tab color
+        "tab.activeBackground": "#252422",
+        "tab.activeForeground": "#ffcfd2",
+        "tab.inactiveBackground": "#014f86",
+        "tab.inactiveForeground": "#faf0ca",
+        "tab.activeBorder": "#ffcfd2",
+        "tab.activeBorderTop": "#ffcfd2",
+
+        // change the status bar color
+        "statusBar.background": "#012a4a",
+        "statusBar.foreground": "#e7e9eb",
+
+        // change the activity bar items color
+        "activityBar.background": "#012a4a",
+        "activityBar.activeBackground": "#014f86",
+        "activityBar.foreground": "#2a6f97",
+
+        // change sidebar section color
+        "sideBarSectionHeader.background": "#012a4a",
+
+        // change menu bar color
+        "menu.background": "#014f86",
+        "menu.foreground": "#ffcfd2",
+        "menu.selectionBackground": "#2a6f97",
+
+        //change title bar color
+        "titleBar.activeBackground": "#012a4a",
+        "titleBar.activeForeground": "#ffcfd2",
+
+        // change line number color
+        "editorLineNumber.foreground": "#2a9d8f",
+        "editorLineNumber.activeForeground": "#b0c4b1", 
+        // change terminal color
+        "terminal.background": "#2b4141",
+        "terminal.foreground": "#ffc4d6",
+    },
+
+    "workbench.statusBar.visible": true,
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt"
+    ],
+
+     // change the text color of programming languages codes
+    "editor.tokenColorCustomizations":{
+        "textMateRules": [
+
+            {
+                "name": "Set italic text-style",
+                "scope": [
+                    "comment",
+                    "keyword",
+                    "variable",
+                    "variable.parameter",
+                    "variable.other",
+                    "string",
+                    "constant",
+                    "meta.function",
+                    "comment.block",
+                    "comment.block.documentation",
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+
+            {
+                "name": "Change the string color",
+                "scope": [
+                    "string.template.js",
+                    "string.quoted.double.julia",
+                    "string.quoted.double.cpp"
+                ],
+                "settings": {
+                    "foreground": "#ffc2d1", // change this COLOR
+                }
+            },
+
+            {
+                "name": "Change the variable name color",
+                "scope": [
+                    "variable.other.readwrite.js"
+                ],
+                "settings": {
+                    "foreground": "#e9c46a", // change this COLOR
+                }
+            },
+
+            {
+                "name": "Change the const variable name color",
+                "scope": [
+                    "variable.other.constant.js",
+                    "variable.other.constant.object.js"
+                ],
+                "settings": {
+                    "foreground": "#2a9d8f", // change this COLOR
+                }
+            },
+
+            {
+                "name": "Change the braces color",
+                "scope": [
+                    "meta.brace.round.js",
+                ],
+                "settings": {
+                    "foreground": "#264653", // change this COLOR
+                }
+            },
+
+            {
+                "name": "Change the expression value color",
+                "scope": [
+                    "constant.numeric.decimal.js",
+                ],
+                "settings": {
+                    "foreground": "#c9cba3", // change this COLOR
+                }
+            },
+
+            {
+                "name": "Change the string variable value color",
+                "scope":[
+                    "string.quoted.double.js",
+                ],
+                "settings":
+                { "foreground": "#8da9c4" }
+
+            },
+        ]
+    }
+}
