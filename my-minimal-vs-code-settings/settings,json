@@ -1,0 +1,23 @@
+{
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.iconTheme": "vscode-icons",
+
+    "editor.fontFamily": "'Victor Mono', 'Courier New', monospace",
+    "editor.fontSize": 24,
+
+    "terminal.integrated.fontSize": 16,
+    "editor.wordWrap": "on",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.mouseWheelZoom": true,
+
+    "workbench.sideBar.location": "right",
+    "workbench.statusBar.visible": true,
+    "workbench.ediror.showTabs": "single",
+    "editor.minimap.enabled": true,
+    "editor.minimap.autohide": true,
+    "editor.minimap.scale": 2,
+    "editor.minimap.renderCharacters": false,
+    "editor.fontLigatures": true,
+    "editor.hover.enabled": false,
+}
